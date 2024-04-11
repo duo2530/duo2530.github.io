@@ -46,7 +46,6 @@ jobs:
           # 部署文档
           branch: gh-pages
           folder: src/.vuepress/dist
-          # 部署到的仓库
           repository-name: duo2530/duo2530.github.io
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
