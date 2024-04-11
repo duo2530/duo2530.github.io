@@ -7,14 +7,14 @@ export default hopeTheme({
 
   author: {
     name: "Mr. Eggplant",
-    url: "https://mister-hope.com",
+    url: "https://github.com/duo2530",
   },
 
   iconAssets: "fontawesome-with-brands",
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "https://github.com/duo2530/duo2530.github.io",
 
   docsDir: "src",
 
@@ -46,7 +46,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      /*footer: "默认页脚",*/
 
       displayFooter: true,
 

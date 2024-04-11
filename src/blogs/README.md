@@ -1,9 +1,27 @@
 ---
 title: 技术博客
-index: false
+index: true
 icon: laptop-code
 category:
   - 使用指南
+  
+
+sidebar: false
+
+breadcrumb: false
+pageInfo: false
+contributors: false
+editLink: false
+lastUpdated: false
+prev: false
+next: false
+comment: false
+
+backtotop: false
 ---
 
-<Catalog />
+<!-- more -->
+
+
+## 还在计划中。。。
+
