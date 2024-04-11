@@ -4,7 +4,7 @@ name: 部署文档
 on:
   push:
     branches:
-      - master
+      - main
 
 permissions:
   contents: write
@@ -46,7 +46,6 @@ jobs:
           # 部署文档
           branch: gh-pages
           folder: src/.vuepress/dist
-          repository-name: duo2530/duo2530.github.io
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
